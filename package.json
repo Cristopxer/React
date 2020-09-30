@@ -1,0 +1,32 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "Front-End Web Development with Ract",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "npx npm-force-resolutions",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ktopher/React.git"
+  },
+  "author": "Cristopxer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ktopher/React/issues"
+  },
+  "homepage": "https://github.com/Ktopher/React#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4",
+    "minimist": "^1.2.5"
+  },
+  "dependencies": {
+    "picomatch": "^2.2.2"
+  },
+  "resolutions": {
+    "minimist": "^1.2.5"
+  }
+}
